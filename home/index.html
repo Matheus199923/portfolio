@@ -1,0 +1,663 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Portfólio de Matheus Santana, estudante de Sistemas de Informação e desenvolvedor Back-End.">
+
+    <title>Matheus Santana | Desenvolvedor Back-End</title>
+
+    <!-- Devicon - Logos das tecnologias -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    >
+
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <!-- =========================
+         CABEÇALHO
+    ========================== -->
+
+    <header>
+
+        <a href="index.html" id="nome_header">
+            Matheus | DEV<span>.</span>
+        </a>
+
+
+        <nav
+            class="links"
+            id="menuLinks"
+            aria-label="Navegação principal"
+        >
+
+            <a href="/home/index.html">
+                Início
+            </a>
+
+            <a href="/sobre/sobre.html">
+                Sobre
+            </a>
+
+            <a href="/projetos/projetos.html">
+                Projetos
+            </a>
+
+            <a href="/curriculo/curriculo.html">
+                Currículo
+            </a>
+
+            <a href="/contatos/contatos.html">
+                Contatos
+            </a>
+
+        </nav>
+
+
+        <!-- Botão do menu mobile -->
+
+        <button
+            class="menu-toggle"
+            id="menuToggle"
+            type="button"
+            aria-label="Abrir menu"
+            aria-expanded="false"
+            aria-controls="menuLinks"
+        >
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
+
+    </header>
+
+
+
+    <!-- =========================
+         APRESENTAÇÃO
+    ========================== -->
+
+    <section class="apresentacao">
+
+        <h1 id="nome">
+            Matheus Santana<span>.</span>
+        </h1>
+
+
+        <h2 id="profissao">
+            Estudante de Sistemas de Informação
+            <span>|</span>
+            Desenvolvedor Back-End
+        </h2>
+
+
+        <p class="descricao-apresentacao">
+            Desenvolvedor em formação com foco em Back-End | Java,
+            Spring Boot, Python, APIs REST e Banco de Dados. Com conhecimentos de Front-End HTML | CSS. 
+        </p>
+
+
+        <a
+            id="link_portfolio"
+            href="/projetos/projetos.html"
+        >
+            Conheça meu portfólio →
+        </a>
+
+    </section>
+
+
+
+    <!-- =========================
+         CONTEÚDO PRINCIPAL
+    ========================== -->
+
+    <main>
+
+        <section class="conteudo">
+
+
+            <!-- =====================
+                 COLUNA ESQUERDA
+            ====================== -->
+
+            <div class="coluna-esquerda">
+
+
+                <!-- SOBRE MIM -->
+
+                <div class="bloco">
+
+                    <h2>
+                        Sobre mim
+                    </h2>
+
+
+                    <p>
+                        Sou estudante de Sistemas de Informação
+                        na Universidade Vila Velha (UVV), com
+                        interesse no desenvolvimento de sistemas
+                        e aplicações Back-End.
+                    </p>
+
+
+                    <p>
+                        Tenho conhecimentos em Java, Spring Boot,
+                        Python, SQL, SQL Server, MySQL, HTML, CSS, APIs REST,
+                        Git e GitHub, além de fundamentos de
+                        Programação Orientada a Objetos e
+                        desenvolvimento de operações CRUD.
+                    </p>
+
+
+                    <p>
+                        Busco aprimorar continuamente meus
+                        conhecimentos por meio de projetos práticos
+                        e acadêmicos, desenvolvendo soluções que
+                        integrem programação, banco de dados e
+                        desenvolvimento de APIs.
+                    </p>
+
+                    <a
+                        class="link-bloco"
+                        href="/sobre/sobre.html"
+                    >
+                        Mais sobre mim →
+                    </a>
+
+                </div>
+
+
+
+                <!-- DADOS ACADÊMICOS -->
+
+                <div class="bloco">
+
+                    <h2>
+                        Dados Acadêmicos
+                    </h2>
+
+
+                    <div class="informacao">
+
+                        <strong>
+                            Curso
+                        </strong>
+
+                        <span>
+                            Sistemas de Informação
+                        </span>
+
+                    </div>
+
+
+                    <div class="informacao">
+
+                        <strong>
+                            Instituição
+                        </strong>
+
+                        <span>
+                            Universidade Vila Velha (UVV)
+                        </span>
+
+                    </div>
+
+
+                    <div class="informacao">
+
+                        <strong>
+                            Início
+                        </strong>
+
+                        <span>
+                            Julho de 2024 (em andamento)
+                        </span>
+
+                    </div>
+
+
+                    <div class="informacao">
+
+                        <strong>
+                            Ensino médio
+                        </strong>
+
+                        <span>
+                            Contec
+                        </span>
+
+                    </div>
+
+
+                    <div class="informacao">
+
+                        <strong>
+                            Ensino fundamental
+                        </strong>
+
+                        <span>
+                            Santa Bárbara (CESB)
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =====================
+                 COLUNA DIREITA
+            ====================== -->
+
+            <div class="coluna-direita">
+
+
+                <!-- =====================
+                     HABILIDADES
+                ====================== -->
+
+                <div class="bloco habilidades-bloco">
+
+                    <h2>
+                        Habilidades
+                    </h2>
+
+
+                    <!-- BACK-END -->
+
+                    <div class="categoria-habilidades">
+
+                        <h3>
+                            Back-End
+                        </h3>
+
+
+                        <div class="cards-habilidades">
+
+
+                            <div class="card-habilidade">
+
+                                <i class="devicon-java-plain colored"></i>
+
+                                <span>
+                                    Java
+                                </span>
+
+                            </div>
+
+
+                            <div class="card-habilidade">
+
+                                <i class="devicon-spring-original colored"></i>
+
+                                <span>
+                                    Spring Boot
+                                </span>
+
+                            </div>
+
+
+                            <div class="card-habilidade">
+
+                                <i class="devicon-python-plain colored"></i>
+
+                                <span>
+                                    Python
+                                </span>
+
+                            </div>
+
+
+                            <div class="card-habilidade">
+
+                                <i class="devicon-postman-plain colored"></i>
+
+                                <span>
+                                    Postman
+                                </span>
+
+                            </div>
+
+
+                            <div class="card-habilidade">
+
+                                <i class="devicon-git-plain colored"></i>
+
+                                <span>
+                                    Git
+                                </span>
+
+                            </div>
+
+
+                            <div class="card-habilidade">
+
+                                <i class="devicon-github-original"></i>
+
+                                <span>
+                                    GitHub
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- BANCO DE DADOS -->
+
+                    <div class="categoria-habilidades">
+
+                        <h3>
+                            Banco de Dados
+                        </h3>
+
+
+                        <div class="cards-habilidades">
+
+
+                            <div class="card-habilidade">
+
+                                <i class="devicon-microsoftsqlserver-plain colored"></i>
+
+                                <span>
+                                    SQL Server
+                                </span>
+
+                            </div>
+
+
+                            <div class="card-habilidade">
+
+                                <i class="devicon-mysql-plain colored"></i>
+
+                                <span>
+                                    MySQL
+                                </span>
+
+                            </div>
+
+
+                            <div class="card-habilidade">
+
+                                <i class="devicon-database-plain"></i>
+
+                                <span>
+                                    SQL
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- FRONT-END -->
+
+                    <div class="categoria-habilidades">
+
+                        <h3>
+                            Front-End
+                        </h3>
+
+
+                        <div class="cards-habilidades">
+
+
+                            <div class="card-habilidade">
+
+                                <i class="devicon-html5-plain colored"></i>
+
+                                <span>
+                                    HTML
+                                </span>
+
+                            </div>
+
+
+                            <div class="card-habilidade">
+
+                                <i class="devicon-css3-plain colored"></i>
+
+                                <span>
+                                    CSS
+                                </span>
+
+                            </div>
+
+
+                            <div class="card-habilidade">
+
+                                <i class="devicon-bootstrap-plain colored"></i>
+
+                                <span>
+                                    Bootstrap
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- CONCEITOS -->
+
+                    <div class="categoria-habilidades">
+
+                        <h3>
+                            Conceitos
+                        </h3>
+
+
+                        <div class="cards-habilidades">
+
+
+                            <div class="card-habilidade card-conceito">
+
+                                <span>
+                                    POO
+                                </span>
+
+                                <small>
+                                    Programação Orientada a Objetos
+                                </small>
+
+                            </div>
+
+
+                            <div class="card-habilidade card-conceito">
+
+                                <span>
+                                    CRUD
+                                </span>
+
+                                <small>
+                                    Create, Read, Update e Delete
+                                </small>
+
+                            </div>
+
+
+                            <div class="card-habilidade card-conceito">
+
+                                <span>
+                                    REST
+                                </span>
+
+                                <small>
+                                    APIs REST
+                                </small>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =====================
+                     PROJETOS
+                ====================== -->
+
+                <div class="bloco">
+
+                    <h2>
+                        Projeto em destaque
+                    </h2>
+
+
+                    <h3 class="titulo-projeto">
+                        Sistema de Gestão Financeira
+                    </h3>
+
+
+                    <p>
+                        Projeto desenvolvido para gerenciamento
+                        de movimentações financeiras, utilizando
+                        Java, Spring Boot, SQL Server e APIs REST, com operações CRUD.
+                    </p>
+
+
+                    <p>
+                        O sistema trabalha com operações de
+                        cadastros, consultas, filtros e gerenciamento de
+                        receitas e despesas.
+                    </p>
+
+
+                    <a
+                        class="link-bloco"
+                        href="/projetos/projetos.html"
+                    >
+                        Ver meus projetos →
+                    </a>
+
+                </div>
+
+
+
+                <!-- =====================
+                     CERTIFICAÇÕES
+                ====================== -->
+
+                <div class="bloco">
+
+                    <h2>
+                        Certificações e cursos
+                    </h2>
+
+
+                    <p>
+                        <strong>
+                            Oracle
+                        </strong>
+                    </p>
+
+
+                    <p>
+                        Certificação / formação em Banco de Dados.
+                    </p>
+
+
+                    <p>
+                        <strong>
+                            DIO
+                        </strong>
+                    </p>
+
+
+                    <p>
+                        Formação em Programação Orientada a
+                        Objetos com Java e Python.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =========================
+         RODAPÉ
+    ========================== -->
+
+    <footer class="rodape">
+
+        <p id="autoria">
+            © 2026 Matheus Santana
+        </p>
+
+    </footer>
+
+
+
+    <!-- =========================
+         JAVASCRIPT DO MENU
+    ========================== -->
+
+    <script>
+
+        const menuToggle =
+            document.getElementById("menuToggle");
+
+        const menuLinks =
+            document.getElementById("menuLinks");
+
+
+        menuToggle.addEventListener("click", () => {
+
+            const isOpen =
+                menuLinks.classList.toggle("active");
+
+
+            menuToggle.setAttribute(
+                "aria-expanded",
+                String(isOpen)
+            );
+
+
+            menuToggle.setAttribute(
+                "aria-label",
+                isOpen
+                    ? "Fechar menu"
+                    : "Abrir menu"
+            );
+
+        });
+
+    </script>
+
+</body>
+
+</html>

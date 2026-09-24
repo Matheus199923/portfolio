@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Entre em contato com Matheus Santana, estudante de Sistemas de Informação e desenvolvedor Back-End."
+    >
+
+    <title>Contato | Matheus Santana</title>
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    >
+
+    <link rel="stylesheet" href="contatos.css">
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header>
+
+        <a href="/home/index.html" id="nome_header">
+            Matheus | DEV<span>.</span>
+        </a>
+
+        <nav class="links" id="menuLinks">
+
+            <a href="/home/index.html">Início</a>
+             <a href="/sobre/sobre.html">Sobre</a>
+            <a href="/projetos/projetos.html">Projetos</a>
+            <a href="/curriculo/curriculo.html">Currículo</a>
+            <a href="/contatos/contatos.html">Contatos</a>
+
+        </nav>
+
+        <button
+            class="menu-toggle"
+            id="menuToggle"
+            aria-label="Abrir menu"
+            aria-expanded="false"
+            aria-controls="menuLinks"
+        >
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+    </header>
+
+
+    <!-- APRESENTAÇÃO -->
+    <section class="apresentacao-contato">
+
+        <h1>Entre em contato<span>.</span></h1>
+
+        <p>
+            Tem uma vaga, projeto ou proposta de estágio?
+            Entre em contato comigo.
+        </p>
+
+    </section>
+
+
+    <!-- CONTEÚDO -->
+    <main>
+
+        <section class="contato-container">
+
+
+            <!-- FORMULÁRIO -->
+            <div class="bloco contato-formulario">
+
+                <h2>Envie uma mensagem</h2>
+
+                <form action="https://api.web3forms.com/submit" method="post">
+
+                    <input type="hidden" name="access_key" value="36dce56a-1706-4bb2-a5a8-82be6eeb1437">
+
+                    <input
+                        type="hidden"
+                        name="redirect"
+                        value="http://127.0.0.1:5501/contatos/sucesso.html"
+                    >
+
+                    <div class="campo">
+
+                        <label for="nome">Nome</label>
+
+                        <input
+                            type="text"
+                            id="nome"
+                            name="nome"
+                            placeholder="Digite seu nome"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="campo">
+
+                        <label for="email">E-mail</label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Digite seu e-mail"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="campo">
+
+                        <label for="assunto">Assunto</label>
+
+                        <input
+                            type="text"
+                            id="assunto"
+                            name="assunto"
+                            placeholder="Digite o assunto"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="campo">
+
+                        <label for="mensagem">Mensagem</label>
+
+                        <textarea
+                            id="mensagem"
+                            name="mensagem"
+                            rows="6"
+                            placeholder="Digite sua mensagem"
+                            required
+                        ></textarea>
+
+                    </div>
+
+
+                    <button type="submit" class="botao-enviar">
+                        Enviar mensagem
+                    </button>
+
+                </form>
+
+            </div>
+
+
+            <!-- FORMAS DE CONTATO -->
+            <div class="bloco formas-contato">
+
+                <h2>Me encontre</h2>
+
+                <p class="texto-contato">
+                    Você também pode entrar em contato comigo
+                    através das minhas redes e plataformas.
+                </p>
+
+
+                <!-- E-MAIL -->
+                <a
+                    href="mailto:matheus.scl1999@gmail.com"
+                    class="card-contato"
+                >
+
+                    <div class="icone-contato">
+                        @
+                    </div>
+
+                    <div>
+                        <h3>E-mail</h3>
+                        <p>Entre em contato por e-mail</p>
+                    </div>
+
+                </a>
+
+
+                <!-- GITHUB -->
+                <a
+                    href="https://github.com/Matheus199923"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="card-contato"
+                >
+
+                    <div class="icone-contato">
+                        <i class="devicon-github-original"></i>
+                    </div>
+
+                    <div>
+                        <h3>GitHub</h3>
+                        <p>Veja meus projetos e códigos</p>
+                    </div>
+
+                </a>
+
+
+                <!-- LINKEDIN -->
+                <a
+                    href="SEU_LINKEDIN_AQUI"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="card-contato"
+                >
+
+                    <div class="icone-contato">
+                        in
+                    </div>
+
+                    <div>
+                        <h3>LinkedIn</h3>
+                        <p>Conecte-se comigo profissionalmente</p>
+                    </div>
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+
+        <p id="autoria">
+            © 2026 Matheus Santana
+        </p>
+
+    </footer>
+
+
+    <!-- MENU MOBILE -->
+    <script>
+
+        const menuToggle = document.getElementById("menuToggle");
+        const menuLinks = document.getElementById("menuLinks");
+
+        menuToggle.addEventListener("click", () => {
+
+            const isOpen = menuLinks.classList.toggle("active");
+
+            menuToggle.setAttribute(
+                "aria-expanded",
+                isOpen
+            );
+
+            menuToggle.setAttribute(
+                "aria-label",
+                isOpen ? "Fechar menu" : "Abrir menu"
+            );
+
+        });
+
+    </script>
+
+</body>
+
+</html>

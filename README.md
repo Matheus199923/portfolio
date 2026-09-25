@@ -24,22 +24,30 @@ O site possui layout responsivo, adaptado para computadores, tablets e dispositi
 
 ## 📂 Estrutura do projeto
 
+```text
 portfolio/
+│
 ├── .vscode/
 │   └── settings.json
+│
 ├── index.html
+│
 ├── home/
 │   ├── index.html
 │   └── style.css
+│
 ├── sobre/
 │   ├── sobre.html
 │   └── sobre.css
+│
 ├── curriculo/
 │   ├── curriculo.html
 │   └── curriculo.css
+│
 ├── projetos/
 │   ├── projetos.html
 │   └── projetos.css
+│
 └── contatos/
     ├── contatos.html
     ├── contatos.css
@@ -49,8 +57,6 @@ portfolio/
 ## 🚀 Hospedagem
 
 O projeto está hospedado utilizando GitHub Pages.
-
-🌐 https://matheus-santana-dev.github.io/portfolio/
 
 ## 👤 Autor
 

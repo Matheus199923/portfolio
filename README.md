@@ -22,6 +22,10 @@ O site possui layout responsivo, adaptado para computadores, tablets e dispositi
 - GitHub Pages
 - Web3Forms
 
+## 🚀 Hospedagem
+
+O projeto está hospedado utilizando GitHub Pages.
+
 ## 📂 Estrutura do projeto
 
 ```text
@@ -53,13 +57,3 @@ portfolio/
     ├── contatos.css
     ├── sucesso.html
     └── sucesso.css
-
-## 🚀 Hospedagem
-
-O projeto está hospedado utilizando GitHub Pages.
-
-## 👤 Autor
-
-**Matheus Santana**
-
-GitHub: https://github.com/matheus-santana-dev
